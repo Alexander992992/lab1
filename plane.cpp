@@ -126,7 +126,7 @@ void Plane::change_info() {
 }
 
 void Plane::save_to_file(ostream& out){
-        out << "Plane\n";
+        out << "plane\n";
         out << name << '\n' << type << '\n' << volume << '\n';
         dimensions.save_to_file(out);
         cities.save_to_file(out);
