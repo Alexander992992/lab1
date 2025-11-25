@@ -118,7 +118,7 @@ void Train::change_info() {
 }
 
 void Train::save_to_file(ostream& out) {
-    out << "train\n";
+    out << "Train\n";
     out << name << '\n' << year << '\n';
     cities.save_to_file(out);
     out << vans << '\n' << volume << '\n';
